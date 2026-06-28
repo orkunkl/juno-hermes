@@ -1,8 +1,8 @@
 # juno-hermes
 
-A [Hermes Agent](https://hermes-agent.nousresearch.com) **profile distribution** that wraps the [juno-network-skill](https://github.com/CosmosContracts/juno-network-skill) into a ready-to-use Juno operations agent.
+A [Hermes Agent](https://hermes-agent.nousresearch.com) **profile distribution** for juno network. It wraps the [juno-network-skill](https://github.com/CosmosContracts/juno-network-skill) into a ready-to-use Juno operations agent for hermes.
 
-Out of the box you get a CosmWasm + DAO DAO–literate agent that can query chain state, sign transactions, manage sub-DAOs, and operate under a VetoConfig timelock — all on Juno mainnet.
+Out of the box you get a CosmWasm + DAO DAO–literate agent that can query chain state, sign transactions, manage sub-DAOs, and operate under a VetoConfig timelock..
 
 ---
 
@@ -68,12 +68,12 @@ Set them in `~/.hermes/profiles/juno-hermes/.env` or export them in your shell p
 
 ### Model
 
-Default is `claude-sonnet-4` via Anthropic. Override in `config.yaml`:
+Default is `owl-alpha` via OpenRouter. Override in `config.yaml`:
 
 ```yaml
 model:
-  default: gpt-5
-  provider: openai
+  default: owl-alpha
+  provider: openrouter
 ```
 
 Or switch at runtime: `/model gpt-5` inside the chat.
