@@ -1,0 +1,3 @@
+[submodule "skills/juno-network"]
+	path = skills/juno-network
+	url = git@github.com:CosmosContracts/juno-network-skill.git

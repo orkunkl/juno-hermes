@@ -1,0 +1,28 @@
+name: juno-hermes
+version: 0.1.0
+description: "Juno network operations agent — CosmWasm, DAO DAO governance, staking, treasury"
+hermes_requires: ">=0.20.0"
+author: "CosmosContracts"
+license: "MIT"
+
+env_requires:
+  - name: JUNO_KEYRING_DIR
+    description: "Path to junod keyring-test directory (e.g. ~/.juno/keyring-test)"
+    required: true
+  - name: JUNO_RPC
+    description: "Juno RPC endpoint"
+    required: false
+    default: "https://juno-rpc.publicnode.com:443"
+  - name: JUNO_CHAIN_ID
+    description: "Chain ID to broadcast txs against"
+    required: false
+    default: "juno-1"
+
+# What gets replaced on `hermes profile update`
+distribution_owned:
+  - SOUL.md
+  - config.yaml
+  - distribution.yaml
+  - skills/
+  - cron/
+  - mcp.json
