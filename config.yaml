@@ -1,6 +1,3 @@
-model:
-  default: claude-sonnet-4
-  provider: anthropic
 agent:
   max_turns: 120
 terminal:

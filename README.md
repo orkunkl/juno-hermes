@@ -68,15 +68,13 @@ Set them in `~/.hermes/profiles/juno-hermes/.env` or export them in your shell p
 
 ### Model
 
-Default is `owl-alpha` via OpenRouter. Override in `config.yaml`:
+No model is pinned by default. On first launch, Hermes will prompt you to select a model and provider, or you can set it manually in `config.yaml`:
 
 ```yaml
 model:
   default: owl-alpha
   provider: openrouter
 ```
-
-Or switch at runtime: `/model gpt-5` inside the chat.
 
 ---
 
