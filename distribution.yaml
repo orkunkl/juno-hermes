@@ -1,8 +1,8 @@
 name: juno-hermes
 version: 0.1.0
 description: "Juno network operations agent — CosmWasm, DAO DAO governance, staking, treasury"
-hermes_requires: ">=0.20.0"
-author: "CosmosContracts"
+hermes_requires: ">=0.17.0"
+author: "orkunkl"
 license: "MIT"
 
 env_requires:
