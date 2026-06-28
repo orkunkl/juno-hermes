@@ -1,6 +1,6 @@
 # juno-hermes
 
-A [Hermes Agent](https://hermes-agent.nousresearch.com) **profile distribution** for juno network. It wraps the [juno-network-skill](https://github.com/CosmosContracts/juno-network-skill) into a ready-to-use Juno operations agent for hermes.
+[Hermes Agent](https://hermes-agent.nousresearch.com) **profile distribution** for juno network. It wraps the [juno-network-skill](https://github.com/CosmosContracts/juno-network-skill) into a ready-to-use Juno operations agent for hermes.
 
 Out of the box you get a CosmWasm + DAO DAO–literate agent that can query chain state, sign transactions, manage sub-DAOs, and operate under a VetoConfig timelock..
 
