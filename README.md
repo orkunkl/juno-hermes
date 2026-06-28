@@ -29,7 +29,7 @@ The skill is tracked as a **git submodule** — upstream updates from `CosmosCon
 ## Install
 
 ```bash
-hermes profile install github.com:<USER>/juno-hermes --alias
+hermes profile install github.com:orkunkl/juno-hermes --alias
 ```
 
 This clones the distribution, writes the manifest, and creates a `juno-hermes` command alias. Your memories, sessions, and API keys stay untouched.
